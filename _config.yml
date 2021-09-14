@@ -1,0 +1,102 @@
+title:            Stake Benefit
+description:      Validate nodes is our life style. Lock up safe and grow your stake with the professional team. The easiest way than a click!
+headline: The easiest way than a click!
+# logo:             logo.jpg
+# disqus_shortname:
+search:           true
+# Change url to your domain. Leave localhost server or blank when working locally.
+# You don't need to specify the protocol if you want it available on http and https. Example: //localhost:4000
+# url:              //localhost:4000
+url:              //stakebenefit.com
+
+# Owner/author information
+owner:
+  name: Stake Benefit
+#   avatar:
+#   email:
+  # Social networking links used in footer. Update and remove as you like.
+  # twitter:
+  # facebook:
+  # github:
+  # stackexchange:
+  # linkedin:
+  # instagram:
+  # flickr:
+  # tumblr:
+  # For Google Authorship https://plus.google.com/authorship
+  # google_plus:
+
+# Analytics and webmaster tools stuff goes here
+# google_analytics:
+# google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+# bing_verify:
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: home
+    url: /
+  - title: what is staking?
+    url: /what-is-staking/
+  - title: about us
+    url: /about-us/
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+future:      true
+# pygments:    true
+# highlighter: rouge
+# markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+# permalink:   /:categories/:title/
+
+# kramdown:
+#   auto_ids: true
+#   footnote_nr: 1
+#   entity_output: as_char
+#   toc_levels: 1..6
+#   enable_coderay: false
+
+#   syntax_highlighter_opts:
+#     line_numbers:
+#     line_numbers_start: 1
+#     tab_width: 4
+#     bold_every: 10
+#     css: class
+
+# gems:
+#   - jekyll-redirect-from
+
+# include: [".htaccess"]
+# exclude: ["lib", "config.rb", "Gemfile", "Capfile", "README.md", "LICENSE", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+
+sass:
+  style: :compressed
+
+
+# Build settings
+# theme: minima
+# plugins:
+#   - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

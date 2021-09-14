@@ -1,0 +1,10 @@
+<div class="navigation">
+	<div>
+		<img src="/images/sb_logos/logo_with_name.svg" alt="stake benefit">
+	</div>
+	<nav role="navigation" id="nav">
+		{% for link in site.links %}
+			<a href="{{ link.url }}" class="{% if link.url == page.url %} active{% endif %}">{{ link.title }}</a>
+		{% endfor %}
+	</nav>
+</div>
