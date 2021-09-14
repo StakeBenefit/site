@@ -3,6 +3,7 @@ layout: main
 title: "Kava"
 description: " "
 type: chain
+permalink: /chains/kava/
 ---
 
 
