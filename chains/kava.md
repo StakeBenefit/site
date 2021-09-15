@@ -1,7 +1,8 @@
 ---
 layout: main
-title: "Kava"
+title: Kava
 description: " "
+logo: kava.png
 type: chain
 permalink: /chains/kava/
 ---
