@@ -7,6 +7,14 @@
     width: 350px;
   }
 
+  .telegram {
+    transform: translateY(10px);
+
+    img {
+      width: 40px;
+    }
+  }
+
   nav {
     align-items: flex-end;
     display: flex;
