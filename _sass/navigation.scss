@@ -7,7 +7,7 @@
     width: 350px;
   }
 
-  .telegram {
+  .icon {
     transform: translateY(10px);
 
     img {
@@ -35,6 +35,10 @@
       &.active {
         color: $hilight-color;
         cursor: default;
+      }
+
+      &.icon {
+        margin: 0 13px;
       }
     }
   }

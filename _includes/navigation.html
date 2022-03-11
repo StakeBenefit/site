@@ -5,11 +5,14 @@
 		</a>
 	</div>
 	<nav role="navigation" id="nav">
-		<a href="https://t.me/sb_do" class="telegram" target="_blank">
-			<img src="/images/font_awesome/telegram.svg" alt="stake benefit">
-		</a>
 		{% for link in site.links %}
 			<a href="{{ link.url }}" class="{% if link.url == page.url %} active{% endif %}">{{ link.title }}</a>
 		{% endfor %}
+		<a href="https://t.me/stakebenefit" class="icon" target="_blank">
+			<img src="/images/font_awesome/telegram.svg" alt="stake benefit">
+		</a>
+		<a href="mailto:service@stakebenefit.com" class="icon" target="_blank">
+			<img src="/images/font_awesome/envelope.svg" alt="mailto">
+		</a>
 	</nav>
 </div>
