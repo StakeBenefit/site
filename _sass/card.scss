@@ -30,12 +30,55 @@
     }
 
     &-page {
-      margin: 50px auto;
+      margin: 70px auto;
     }
   }
 
   &-link {
     font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+.member {
+  margin-top: 100px;
+  text-align: center;
+
+  &-photo {
+    img {
+      border-radius: 50%;
+      width: 200px;
+    }
+  }
+
+  &-title {
+    font-size: 1.5rem;
+    margin: 40px 0 7px;
+  }
+
+  &-subtitle {
+    color: $hilight-color;
+    font-size: 1.1rem;
+  }
+
+  &-social {
+    img {
+      cursor: pointer;
+      margin: 13px;
+      width: 40px;
+    }
+
+    svg {
+      &:hover {
+        fill: wheat;
+      }
+    }
+  }
+
+  &-former {
+    font-size: 1.45rem;
+    font-weight: 500;
+    margin: 120px 0 -30px;
     text-align: center;
   }
 }
