@@ -6,6 +6,14 @@
   <body>
     <div class="container">
       {% include navigation.html %}
+      {% if page.type == "chain" %}
+        <div class="card-logo card-logo-page">
+          <img src="/images/project_logos/{{ page.logo }}" alt="{{ page.title }} logo">
+        </div>
+        <div class="page-title">
+          <p>{{ page.title }}</p>
+        </div>
+      {% endif %}
       {{ content }}
       {% include footer.html %}
     </div>

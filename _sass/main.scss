@@ -28,3 +28,28 @@ body {
     margin: 160px 80px 260px;
   }
 }
+
+.page {
+  &-title {
+    font-size: 2rem;
+    opacity: 0.8;
+    text-align: center;
+  }
+
+  &-paragraph {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    opacity: 0.8;
+    text-align: justify;
+
+    span {
+      color: navy;
+      font-weight: 600;
+      line-height: 2;
+    }
+  }
+
+  &-end {
+    margin-bottom: 250px;
+  }
+}
