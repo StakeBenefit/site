@@ -4,9 +4,9 @@
 			<img src="/images/sb_logos/logo_with_name.svg" alt="stake benefit">
 		</a>
 	</div>
-	<nav role="navigation" id="nav">
+	<div class="nav-links">
 		{% for link in site.links %}
-			<a href="{{ link.url }}" class="{% if link.url == page.url %} active {% endif %}">{{ link.title }}</a>
+			<a href="{{ link.url }}" class="{% if link.url == page.url %} active {% endif %} nav-text-link">{{ link.title }}</a>
 		{% endfor %}
 		<a href="https://t.me/stakebenefit" class="icon" target="_blank">
 			<img src="/images/font_awesome/telegram.svg" alt="stake benefit">
@@ -14,5 +14,5 @@
 		<a href="mailto:service@stakebenefit.com" class="icon" target="_blank">
 			<img src="/images/font_awesome/envelope.svg" alt="mailto">
 		</a>
-	</nav>
+	</div>
 </div>

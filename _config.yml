@@ -1,5 +1,5 @@
 title: Stake Benefit
-description: Validate nodes is our life style. Lock up safe and grow your stake with the professional team. The easiest way than a click!
+description: Validate nodes is our life style. Lock up safe and grow your stake with the professional team. The easier than a click!
 headline: The easiest way than a click!
 # logo:             logo.jpg
 # disqus_shortname:
@@ -37,8 +37,6 @@ owner:
 links:
   - title: home
     url: /
-  - title: what is staking
-    url: /what-is-staking/
   - title: about us
     url: /about-us/
 
