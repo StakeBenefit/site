@@ -11,7 +11,7 @@ type: desc
   We're a small team of enthusiastic software and devops engineers with interests about innovation and web3 development. Stake with us!
 </p>
 <p class="page-paragraph">
-  Stake Benefit tagline is "The easiest way than a click" that means that we do all the our best to provide professional service to all our clients so quick as the one mouse click powered by team you can trust!
+  Stake Benefit tagline is "The easier than a click" that means that we do all the our best to provide professional service to all our clients so quick as the one mouse click powered by team you can trust!
 </p>
 <section class="flex">
   <div class="member">
