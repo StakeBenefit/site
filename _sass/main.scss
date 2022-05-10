@@ -59,6 +59,15 @@ body {
         font-size: 1.7rem;
       }
     }
+
+    a {
+      font-weight: 600;
+      text-decoration: none;
+
+      &:visited {
+        color: navy;
+      }
+    }
   }
 
   &-end {
@@ -70,4 +79,21 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.btn-delegate {
+  text-align: center;
+  padding-top: 30px;
+  a {
+    background-color: navy;
+    border-radius: 6px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+    height:70px;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
 }

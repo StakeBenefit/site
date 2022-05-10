@@ -29,18 +29,6 @@ type: desc
       </a>
     </div>
   </div>
-  <div class="member">
-    <div class="member-photo">
-      <img src="/images/team/alexander.jpg" alt="alexander">
-    </div>
-    <div class="member-title">Alexander Filatov</div>
-    <div class="member-subtitle">devops engineer</div>
-    <div class="member-social">
-      <a href="https://github.com/SandexEz" target="_blank">
-        <img src="/images/font_awesome/github.svg" alt="github">
-      </a>
-    </div>
-  </div>
 </section>
 <h2 class="member-former">Former Team Member</h2>
 <div class="member page-end">
