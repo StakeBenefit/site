@@ -54,9 +54,10 @@ body {
   }
 
   &-paragraph {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
     line-height: 1.5;
-    opacity: 0.8;
+    opacity: 0.9;
     text-align: justify;
 
     span {
@@ -80,7 +81,7 @@ body {
   }
 
   &-end {
-    margin-bottom: 180px;
+    margin-bottom: 120px;
 
     @media screen and (max-width: 850px) {
       margin-bottom: 60px;
@@ -96,7 +97,12 @@ body {
 
 .btn-delegate {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 100px;
+
+  @media screen and (max-width: 850px) {
+    padding-top: 30px;
+  }
+
   a {
     background-color: navy;
     border-radius: 6px;

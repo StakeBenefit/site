@@ -1,0 +1,14 @@
+h2 {
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+  opacity: 0.8;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+
+    &:visited {
+      color: navy;
+    }
+  }
+}
