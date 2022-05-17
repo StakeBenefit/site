@@ -1,7 +1,8 @@
 ---
 layout: main
 title: Meme
-description: " "
+description: "MEME Network -
+the creative powerhouse that supercharges your MEME projects with the World’s First Layer 1 solution in the Cosmos Ecosystem"
 logo: meme.jpg
 type: chain
 permalink: /chains/meme/

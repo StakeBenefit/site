@@ -1,13 +1,42 @@
 <meta charset="utf-8">
+<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+{% if page.logo %}
+  <meta property="og:image" content="https:{{ site.url }}/images/project_logos/{{ page.logo }}"/>
+  <meta name="twitter:image" content="https:{{ site.url }}/images/project_logos/{{ page.logo }}"/>
+{% else %}
+  <meta property="og:image" content="https:{{ site.url }}/images/sb_logos/logo.jpg"/>
+  <meta name="twitter:image" content="https:{{ site.url }}/images/sb_logos/logo.jpg"/>
+{% endif %}
+
+<meta name="twitter:card" content="summary"/>
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:url" content="{{ page.url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+
+<!-- {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+{% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %} -->
+
+<link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+<!-- {% if site.owner.google_plus %}<link rel="author" href="{{ site.owner.google_plus }}?rel=author">{% endif %} -->
+
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
 <!-- <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title> -->
-<title>{{ site.title }}</title>
+<!-- <title>{{ site.title }}</title> -->
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="{{ site.title }}" />
+<!-- <meta property="og:title" content="{{ site.title }}" />
 <meta property="og:locale" content="en_US" />
-<!-- <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %} -->
+
 <meta name="description" content="{{ site.description }}">
 <meta property="og:description" content="{{ site.description }}" />
 <link rel="canonical" href="/" />
@@ -16,10 +45,9 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="{{ site.title }}" />
 <script type="application/ld+json">
-{"description":"{{ site.description }}","url":"/","@type":"WebSite","headline":"{{ site.headline }}","name":"{{ site.title }}","@context":"https://schema.org"}</script>
+{"description":"{{ site.description }}","url":"/","@type":"WebSite","headline":"{{ site.headline }}","name":"{{ site.title }}","@context":"https://schema.org"}</script> -->
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/styles.css">
-<link type="application/atom+xml" rel="alternate" href="/feed.xml" title="{{ site.title }}" />
 
 <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">

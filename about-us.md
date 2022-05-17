@@ -2,6 +2,8 @@
 layout: main
 title: Meet Our Team
 permalink: /about-us/
+description: We're a small team of enthusiastic software and devops engineers with interests about innovation and web3 development. Stake with us!"
+logo: logo.svg
 type: desc
 ---
 <p class="page-paragraph">
